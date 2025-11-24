@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "formidable": "^3.5.1",
-    "nodemailer": "^6.9.14",
-    "upper-case": "^3.0.0",
-    "uppercase": "^2.0.0-beta.23"
-  }
-}
