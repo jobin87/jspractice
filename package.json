@@ -1,0 +1,27 @@
+{
+  "name": "activity_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote set-url origin https://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@github.com/jobin87/jspractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jobin87/jspractice.git"
+  },
+  "homepage": "https://github.com/jobin87/jspractice.git",
+  "description": "",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.30.1",
+    "random": "^5.4.1",
+    "simple-git": "^3.28.0"
+  }
+}
