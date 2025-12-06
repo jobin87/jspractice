@@ -6,8 +6,8 @@ import random from "random";
 const git = simpleGit();
 const path = "./data.json";
 
-const startDate = moment("2024-06-28");
-const endDate = moment("2024-12-31");
+const startDate = moment("2025-01-01");
+const endDate = moment("2025-12-11");
 
 async function makeCommits() {
   let current = startDate.clone();
@@ -20,11 +20,11 @@ async function makeCommits() {
     }
 
     // Normal day: 1–4 commits
-    let commitCount = random.int(1, 4);
+    let commitCount = random.int(1, 3);
 
     // 10% chance of a productive day with 6–8 commits
     if (random.int(1, 100) <= 10) {
-      commitCount = random.int(6, 8);
+      commitCount = random.int(3, 4);
     }
 
     for (let i = 0; i < commitCount; i++) {
